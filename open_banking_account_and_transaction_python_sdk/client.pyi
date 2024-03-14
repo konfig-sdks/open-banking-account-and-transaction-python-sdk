@@ -31,7 +31,7 @@ from open_banking_account_and_transaction_python_sdk.apis.tags.transactions_api 
 
 
 
-class OpenBanking(ClientCustom):
+class OpenBankingAccountAndTransaction(ClientCustom):
 
     def __init__(self, configuration: typing.Union[Configuration, None] = None, **kwargs):
         super().__init__(configuration, **kwargs)

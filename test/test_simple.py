@@ -14,14 +14,14 @@ import unittest
 
 import os
 from pprint import pprint
-from open_banking_account_and_transaction_python_sdk import OpenBanking
+from open_banking_account_and_transaction_python_sdk import OpenBankingAccountAndTransaction
 
 class TestSimple(unittest.TestCase):
     def setUp(self):
         pass
 
     def test_client(self):
-        openbanking = OpenBanking(
+        openbankingaccountandtransaction = OpenBankingAccountAndTransaction(
         
             client_id = 'YOUR_CLIENT_ID',
             client_secret = 'YOUR_CLIENT_SECRET',,
@@ -29,7 +29,7 @@ class TestSimple(unittest.TestCase):
             client_id = 'YOUR_CLIENT_ID',
             client_secret = 'YOUR_CLIENT_SECRET',
         )
-        self.assertIsNotNone(openbanking)
+        self.assertIsNotNone(openbankingaccountandtransaction)
 
     def tearDown(self):
         pass

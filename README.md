@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Visit Open banking](./header.png)](https://openbanking.org.uk)
+[![Visit Open banking](./header.png)](https://www.openbanking.org.uk&#x2F;)
 
 # Open banking<a id="open-banking"></a>
 
@@ -19,35 +19,35 @@ Swagger for Account and Transaction API Specification
 - [Async](#async)
 - [Raw HTTP Response](#raw-http-response)
 - [Reference](#reference)
-  * [`openbanking.account_access.create_consent`](#openbankingaccount_accesscreate_consent)
-  * [`openbanking.account_access.delete_consent`](#openbankingaccount_accessdelete_consent)
-  * [`openbanking.account_access.get_consent`](#openbankingaccount_accessget_consent)
-  * [`openbanking.accounts.get`](#openbankingaccountsget)
-  * [`openbanking.accounts.get_all`](#openbankingaccountsget_all)
-  * [`openbanking.balances.get`](#openbankingbalancesget)
-  * [`openbanking.balances.get_all`](#openbankingbalancesget_all)
-  * [`openbanking.beneficiaries.get_all`](#openbankingbeneficiariesget_all)
-  * [`openbanking.beneficiaries.get_all_0`](#openbankingbeneficiariesget_all_0)
-  * [`openbanking.direct_debits.get_all`](#openbankingdirect_debitsget_all)
-  * [`openbanking.direct_debits.list`](#openbankingdirect_debitslist)
-  * [`openbanking.offers.get_by_id`](#openbankingoffersget_by_id)
-  * [`openbanking.offers.list`](#openbankingofferslist)
-  * [`openbanking.parties.get_by_account_id`](#openbankingpartiesget_by_account_id)
-  * [`openbanking.parties.get_list`](#openbankingpartiesget_list)
-  * [`openbanking.parties.get_list_0`](#openbankingpartiesget_list_0)
-  * [`openbanking.products.get_by_account_id`](#openbankingproductsget_by_account_id)
-  * [`openbanking.products.list`](#openbankingproductslist)
-  * [`openbanking.scheduled_payments.get_all`](#openbankingscheduled_paymentsget_all)
-  * [`openbanking.scheduled_payments.get_all_0`](#openbankingscheduled_paymentsget_all_0)
-  * [`openbanking.standing_orders.get`](#openbankingstanding_ordersget)
-  * [`openbanking.standing_orders.get_all`](#openbankingstanding_ordersget_all)
-  * [`openbanking.statements.get`](#openbankingstatementsget)
-  * [`openbanking.statements.get_all`](#openbankingstatementsget_all)
-  * [`openbanking.statements.get_details`](#openbankingstatementsget_details)
-  * [`openbanking.statements.get_file`](#openbankingstatementsget_file)
-  * [`openbanking.transactions.get_details`](#openbankingtransactionsget_details)
-  * [`openbanking.transactions.get_details_0`](#openbankingtransactionsget_details_0)
-  * [`openbanking.transactions.get_details_1`](#openbankingtransactionsget_details_1)
+  * [`openbankingaccountandtransaction.account_access.create_consent`](#openbankingaccountandtransactionaccount_accesscreate_consent)
+  * [`openbankingaccountandtransaction.account_access.delete_consent`](#openbankingaccountandtransactionaccount_accessdelete_consent)
+  * [`openbankingaccountandtransaction.account_access.get_consent`](#openbankingaccountandtransactionaccount_accessget_consent)
+  * [`openbankingaccountandtransaction.accounts.get`](#openbankingaccountandtransactionaccountsget)
+  * [`openbankingaccountandtransaction.accounts.get_all`](#openbankingaccountandtransactionaccountsget_all)
+  * [`openbankingaccountandtransaction.balances.get`](#openbankingaccountandtransactionbalancesget)
+  * [`openbankingaccountandtransaction.balances.get_all`](#openbankingaccountandtransactionbalancesget_all)
+  * [`openbankingaccountandtransaction.beneficiaries.get_all`](#openbankingaccountandtransactionbeneficiariesget_all)
+  * [`openbankingaccountandtransaction.beneficiaries.get_all_0`](#openbankingaccountandtransactionbeneficiariesget_all_0)
+  * [`openbankingaccountandtransaction.direct_debits.get_all`](#openbankingaccountandtransactiondirect_debitsget_all)
+  * [`openbankingaccountandtransaction.direct_debits.list`](#openbankingaccountandtransactiondirect_debitslist)
+  * [`openbankingaccountandtransaction.offers.get_by_id`](#openbankingaccountandtransactionoffersget_by_id)
+  * [`openbankingaccountandtransaction.offers.list`](#openbankingaccountandtransactionofferslist)
+  * [`openbankingaccountandtransaction.parties.get_by_account_id`](#openbankingaccountandtransactionpartiesget_by_account_id)
+  * [`openbankingaccountandtransaction.parties.get_list`](#openbankingaccountandtransactionpartiesget_list)
+  * [`openbankingaccountandtransaction.parties.get_list_0`](#openbankingaccountandtransactionpartiesget_list_0)
+  * [`openbankingaccountandtransaction.products.get_by_account_id`](#openbankingaccountandtransactionproductsget_by_account_id)
+  * [`openbankingaccountandtransaction.products.list`](#openbankingaccountandtransactionproductslist)
+  * [`openbankingaccountandtransaction.scheduled_payments.get_all`](#openbankingaccountandtransactionscheduled_paymentsget_all)
+  * [`openbankingaccountandtransaction.scheduled_payments.get_all_0`](#openbankingaccountandtransactionscheduled_paymentsget_all_0)
+  * [`openbankingaccountandtransaction.standing_orders.get`](#openbankingaccountandtransactionstanding_ordersget)
+  * [`openbankingaccountandtransaction.standing_orders.get_all`](#openbankingaccountandtransactionstanding_ordersget_all)
+  * [`openbankingaccountandtransaction.statements.get`](#openbankingaccountandtransactionstatementsget)
+  * [`openbankingaccountandtransaction.statements.get_all`](#openbankingaccountandtransactionstatementsget_all)
+  * [`openbankingaccountandtransaction.statements.get_details`](#openbankingaccountandtransactionstatementsget_details)
+  * [`openbankingaccountandtransaction.statements.get_file`](#openbankingaccountandtransactionstatementsget_file)
+  * [`openbankingaccountandtransaction.transactions.get_details`](#openbankingaccountandtransactiontransactionsget_details)
+  * [`openbankingaccountandtransaction.transactions.get_details_0`](#openbankingaccountandtransactiontransactionsget_details_0)
+  * [`openbankingaccountandtransaction.transactions.get_details_1`](#openbankingaccountandtransactiontransactionsget_details_1)
 
 <!-- tocstop -->
 
@@ -57,7 +57,7 @@ Python >=3.7
 
 ## Installation<a id="installation"></a>
 <div align="center">
-  <a href="https://konfigthis.com/sdk-sign-up?company=Open%20Banking&serviceName=Account%20and%20Transaction&language=Python">
+  <a href="https://konfigthis.com/sdk-sign-up?company=Open%20Banking&%20serviceName=Account%20and%20Transaction%20&language=Python">
     <img src="https://raw.githubusercontent.com/konfig-dev/brand-assets/HEAD/cta-images/python-cta.png" width="70%">
   </a>
 </div>
@@ -66,24 +66,29 @@ Python >=3.7
 
 ```python
 from pprint import pprint
-from open_banking_account_and_transaction_python_sdk import OpenBanking, ApiException
+from open_banking_account_and_transaction_python_sdk import (
+    OpenBankingAccountAndTransaction,
+    ApiException,
+)
 
-openbanking = OpenBanking(
+openbankingaccountandtransaction = OpenBankingAccountAndTransaction(
     client_id="YOUR_CLIENT_ID",
     client_secret="YOUR_CLIENT_SECRET",
 )
 
 try:
     # Create Account Access Consents
-    create_consent_response = openbanking.account_access.create_consent(
-        data={
-            "permissions": ["ReadAccountsBasic"],
-        },
-        risk={},
-        x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
-        x_fapi_customer_ip_address="string_example",
-        x_fapi_interaction_id="string_example",
-        x_customer_user_agent="string_example",
+    create_consent_response = (
+        openbankingaccountandtransaction.account_access.create_consent(
+            data={
+                "permissions": ["ReadAccountsBasic"],
+            },
+            risk={},
+            x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
+            x_fapi_customer_ip_address="string_example",
+            x_fapi_interaction_id="string_example",
+            x_customer_user_agent="string_example",
+        )
     )
     print(create_consent_response)
 except ApiException as e:
@@ -117,9 +122,12 @@ except ApiException as e:
 ```python
 import asyncio
 from pprint import pprint
-from open_banking_account_and_transaction_python_sdk import OpenBanking, ApiException
+from open_banking_account_and_transaction_python_sdk import (
+    OpenBankingAccountAndTransaction,
+    ApiException,
+)
 
-openbanking = OpenBanking(
+openbankingaccountandtransaction = OpenBankingAccountAndTransaction(
     client_id="YOUR_CLIENT_ID",
     client_secret="YOUR_CLIENT_SECRET",
 )
@@ -128,15 +136,17 @@ openbanking = OpenBanking(
 async def main():
     try:
         # Create Account Access Consents
-        create_consent_response = await openbanking.account_access.acreate_consent(
-            data={
-                "permissions": ["ReadAccountsBasic"],
-            },
-            risk={},
-            x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
-            x_fapi_customer_ip_address="string_example",
-            x_fapi_interaction_id="string_example",
-            x_customer_user_agent="string_example",
+        create_consent_response = (
+            await openbankingaccountandtransaction.account_access.acreate_consent(
+                data={
+                    "permissions": ["ReadAccountsBasic"],
+                },
+                risk={},
+                x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
+                x_fapi_customer_ip_address="string_example",
+                x_fapi_interaction_id="string_example",
+                x_customer_user_agent="string_example",
+            )
         )
         print(create_consent_response)
     except ApiException as e:
@@ -172,24 +182,29 @@ To access raw HTTP response values, use the `.raw` namespace.
 
 ```python
 from pprint import pprint
-from open_banking_account_and_transaction_python_sdk import OpenBanking, ApiException
+from open_banking_account_and_transaction_python_sdk import (
+    OpenBankingAccountAndTransaction,
+    ApiException,
+)
 
-openbanking = OpenBanking(
+openbankingaccountandtransaction = OpenBankingAccountAndTransaction(
     client_id="YOUR_CLIENT_ID",
     client_secret="YOUR_CLIENT_SECRET",
 )
 
 try:
     # Create Account Access Consents
-    create_consent_response = openbanking.account_access.raw.create_consent(
-        data={
-            "permissions": ["ReadAccountsBasic"],
-        },
-        risk={},
-        x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
-        x_fapi_customer_ip_address="string_example",
-        x_fapi_interaction_id="string_example",
-        x_customer_user_agent="string_example",
+    create_consent_response = (
+        openbankingaccountandtransaction.account_access.raw.create_consent(
+            data={
+                "permissions": ["ReadAccountsBasic"],
+            },
+            risk={},
+            x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
+            x_fapi_customer_ip_address="string_example",
+            x_fapi_interaction_id="string_example",
+            x_customer_user_agent="string_example",
+        )
     )
     pprint(create_consent_response.body)
     pprint(create_consent_response.body["data"])
@@ -225,22 +240,24 @@ except ApiException as e:
 
 
 ## Reference<a id="reference"></a>
-### `openbanking.account_access.create_consent`<a id="openbankingaccount_accesscreate_consent"></a>
+### `openbankingaccountandtransaction.account_access.create_consent`<a id="openbankingaccountandtransactionaccount_accesscreate_consent"></a>
 
 Create Account Access Consents
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-create_consent_response = openbanking.account_access.create_consent(
-    data={
-        "permissions": ["ReadAccountsBasic"],
-    },
-    risk={},
-    x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
-    x_fapi_customer_ip_address="string_example",
-    x_fapi_interaction_id="string_example",
-    x_customer_user_agent="string_example",
+create_consent_response = (
+    openbankingaccountandtransaction.account_access.create_consent(
+        data={
+            "permissions": ["ReadAccountsBasic"],
+        },
+        risk={},
+        x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
+        x_fapi_customer_ip_address="string_example",
+        x_fapi_interaction_id="string_example",
+        x_customer_user_agent="string_example",
+    )
 )
 ```
 
@@ -286,14 +303,14 @@ Default
 
 ---
 
-### `openbanking.account_access.delete_consent`<a id="openbankingaccount_accessdelete_consent"></a>
+### `openbankingaccountandtransaction.account_access.delete_consent`<a id="openbankingaccountandtransactionaccount_accessdelete_consent"></a>
 
 Delete Account Access Consents
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-openbanking.account_access.delete_consent(
+openbankingaccountandtransaction.account_access.delete_consent(
     consent_id="ConsentId_example",
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
@@ -332,14 +349,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.account_access.get_consent`<a id="openbankingaccount_accessget_consent"></a>
+### `openbankingaccountandtransaction.account_access.get_consent`<a id="openbankingaccountandtransactionaccount_accessget_consent"></a>
 
 Get Account Access Consents
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_consent_response = openbanking.account_access.get_consent(
+get_consent_response = openbankingaccountandtransaction.account_access.get_consent(
     consent_id="ConsentId_example",
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
@@ -382,14 +399,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.accounts.get`<a id="openbankingaccountsget"></a>
+### `openbankingaccountandtransaction.accounts.get`<a id="openbankingaccountandtransactionaccountsget"></a>
 
 Get Accounts
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_response = openbanking.accounts.get(
+get_response = openbankingaccountandtransaction.accounts.get(
     account_id="AccountId_example",
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
@@ -432,14 +449,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.accounts.get_all`<a id="openbankingaccountsget_all"></a>
+### `openbankingaccountandtransaction.accounts.get_all`<a id="openbankingaccountandtransactionaccountsget_all"></a>
 
 Get Accounts
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_all_response = openbanking.accounts.get_all(
+get_all_response = openbankingaccountandtransaction.accounts.get_all(
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
     x_fapi_interaction_id="string_example",
@@ -477,14 +494,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.balances.get`<a id="openbankingbalancesget"></a>
+### `openbankingaccountandtransaction.balances.get`<a id="openbankingaccountandtransactionbalancesget"></a>
 
 Get Balances
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_response = openbanking.balances.get(
+get_response = openbankingaccountandtransaction.balances.get(
     account_id="AccountId_example",
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
@@ -527,14 +544,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.balances.get_all`<a id="openbankingbalancesget_all"></a>
+### `openbankingaccountandtransaction.balances.get_all`<a id="openbankingaccountandtransactionbalancesget_all"></a>
 
 Get Balances
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_all_response = openbanking.balances.get_all(
+get_all_response = openbankingaccountandtransaction.balances.get_all(
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
     x_fapi_interaction_id="string_example",
@@ -572,14 +589,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.beneficiaries.get_all`<a id="openbankingbeneficiariesget_all"></a>
+### `openbankingaccountandtransaction.beneficiaries.get_all`<a id="openbankingaccountandtransactionbeneficiariesget_all"></a>
 
 Get Beneficiaries
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_all_response = openbanking.beneficiaries.get_all(
+get_all_response = openbankingaccountandtransaction.beneficiaries.get_all(
     account_id="AccountId_example",
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
@@ -622,14 +639,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.beneficiaries.get_all_0`<a id="openbankingbeneficiariesget_all_0"></a>
+### `openbankingaccountandtransaction.beneficiaries.get_all_0`<a id="openbankingaccountandtransactionbeneficiariesget_all_0"></a>
 
 Get Beneficiaries
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_all_0_response = openbanking.beneficiaries.get_all_0(
+get_all_0_response = openbankingaccountandtransaction.beneficiaries.get_all_0(
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
     x_fapi_interaction_id="string_example",
@@ -667,14 +684,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.direct_debits.get_all`<a id="openbankingdirect_debitsget_all"></a>
+### `openbankingaccountandtransaction.direct_debits.get_all`<a id="openbankingaccountandtransactiondirect_debitsget_all"></a>
 
 Get Direct Debits
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_all_response = openbanking.direct_debits.get_all(
+get_all_response = openbankingaccountandtransaction.direct_debits.get_all(
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
     x_fapi_interaction_id="string_example",
@@ -712,14 +729,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.direct_debits.list`<a id="openbankingdirect_debitslist"></a>
+### `openbankingaccountandtransaction.direct_debits.list`<a id="openbankingaccountandtransactiondirect_debitslist"></a>
 
 Get Direct Debits
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-list_response = openbanking.direct_debits.list(
+list_response = openbankingaccountandtransaction.direct_debits.list(
     account_id="AccountId_example",
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
@@ -762,14 +779,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.offers.get_by_id`<a id="openbankingoffersget_by_id"></a>
+### `openbankingaccountandtransaction.offers.get_by_id`<a id="openbankingaccountandtransactionoffersget_by_id"></a>
 
 Get Offers
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_by_id_response = openbanking.offers.get_by_id(
+get_by_id_response = openbankingaccountandtransaction.offers.get_by_id(
     account_id="AccountId_example",
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
@@ -812,14 +829,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.offers.list`<a id="openbankingofferslist"></a>
+### `openbankingaccountandtransaction.offers.list`<a id="openbankingaccountandtransactionofferslist"></a>
 
 Get Offers
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-list_response = openbanking.offers.list(
+list_response = openbankingaccountandtransaction.offers.list(
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
     x_fapi_interaction_id="string_example",
@@ -857,14 +874,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.parties.get_by_account_id`<a id="openbankingpartiesget_by_account_id"></a>
+### `openbankingaccountandtransaction.parties.get_by_account_id`<a id="openbankingaccountandtransactionpartiesget_by_account_id"></a>
 
 Get Parties
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_by_account_id_response = openbanking.parties.get_by_account_id(
+get_by_account_id_response = openbankingaccountandtransaction.parties.get_by_account_id(
     account_id="AccountId_example",
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
@@ -907,14 +924,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.parties.get_list`<a id="openbankingpartiesget_list"></a>
+### `openbankingaccountandtransaction.parties.get_list`<a id="openbankingaccountandtransactionpartiesget_list"></a>
 
 Get Parties
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_list_response = openbanking.parties.get_list(
+get_list_response = openbankingaccountandtransaction.parties.get_list(
     account_id="AccountId_example",
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
@@ -957,14 +974,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.parties.get_list_0`<a id="openbankingpartiesget_list_0"></a>
+### `openbankingaccountandtransaction.parties.get_list_0`<a id="openbankingaccountandtransactionpartiesget_list_0"></a>
 
 Get Parties
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_list_0_response = openbanking.parties.get_list_0(
+get_list_0_response = openbankingaccountandtransaction.parties.get_list_0(
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
     x_fapi_interaction_id="string_example",
@@ -1002,19 +1019,21 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.products.get_by_account_id`<a id="openbankingproductsget_by_account_id"></a>
+### `openbankingaccountandtransaction.products.get_by_account_id`<a id="openbankingaccountandtransactionproductsget_by_account_id"></a>
 
 Get Products
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_by_account_id_response = openbanking.products.get_by_account_id(
-    account_id="AccountId_example",
-    x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
-    x_fapi_customer_ip_address="string_example",
-    x_fapi_interaction_id="string_example",
-    x_customer_user_agent="string_example",
+get_by_account_id_response = (
+    openbankingaccountandtransaction.products.get_by_account_id(
+        account_id="AccountId_example",
+        x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
+        x_fapi_customer_ip_address="string_example",
+        x_fapi_interaction_id="string_example",
+        x_customer_user_agent="string_example",
+    )
 )
 ```
 
@@ -1052,14 +1071,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.products.list`<a id="openbankingproductslist"></a>
+### `openbankingaccountandtransaction.products.list`<a id="openbankingaccountandtransactionproductslist"></a>
 
 Get Products
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-list_response = openbanking.products.list(
+list_response = openbankingaccountandtransaction.products.list(
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
     x_fapi_interaction_id="string_example",
@@ -1097,14 +1116,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.scheduled_payments.get_all`<a id="openbankingscheduled_paymentsget_all"></a>
+### `openbankingaccountandtransaction.scheduled_payments.get_all`<a id="openbankingaccountandtransactionscheduled_paymentsget_all"></a>
 
 Get Scheduled Payments
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_all_response = openbanking.scheduled_payments.get_all(
+get_all_response = openbankingaccountandtransaction.scheduled_payments.get_all(
     account_id="AccountId_example",
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
@@ -1147,14 +1166,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.scheduled_payments.get_all_0`<a id="openbankingscheduled_paymentsget_all_0"></a>
+### `openbankingaccountandtransaction.scheduled_payments.get_all_0`<a id="openbankingaccountandtransactionscheduled_paymentsget_all_0"></a>
 
 Get Scheduled Payments
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_all_0_response = openbanking.scheduled_payments.get_all_0(
+get_all_0_response = openbankingaccountandtransaction.scheduled_payments.get_all_0(
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
     x_fapi_interaction_id="string_example",
@@ -1192,14 +1211,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.standing_orders.get`<a id="openbankingstanding_ordersget"></a>
+### `openbankingaccountandtransaction.standing_orders.get`<a id="openbankingaccountandtransactionstanding_ordersget"></a>
 
 Get Standing Orders
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_response = openbanking.standing_orders.get(
+get_response = openbankingaccountandtransaction.standing_orders.get(
     account_id="AccountId_example",
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
@@ -1242,14 +1261,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.standing_orders.get_all`<a id="openbankingstanding_ordersget_all"></a>
+### `openbankingaccountandtransaction.standing_orders.get_all`<a id="openbankingaccountandtransactionstanding_ordersget_all"></a>
 
 Get Standing Orders
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_all_response = openbanking.standing_orders.get_all(
+get_all_response = openbankingaccountandtransaction.standing_orders.get_all(
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
     x_fapi_interaction_id="string_example",
@@ -1287,14 +1306,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.statements.get`<a id="openbankingstatementsget"></a>
+### `openbankingaccountandtransaction.statements.get`<a id="openbankingaccountandtransactionstatementsget"></a>
 
 Get Statements
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_response = openbanking.statements.get(
+get_response = openbankingaccountandtransaction.statements.get(
     account_id="AccountId_example",
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
@@ -1347,14 +1366,14 @@ The UTC ISO 8601 Date Time to filter statements TO NB Time component is optional
 
 ---
 
-### `openbanking.statements.get_all`<a id="openbankingstatementsget_all"></a>
+### `openbankingaccountandtransaction.statements.get_all`<a id="openbankingaccountandtransactionstatementsget_all"></a>
 
 Get Statements
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_all_response = openbanking.statements.get_all(
+get_all_response = openbankingaccountandtransaction.statements.get_all(
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
     x_fapi_interaction_id="string_example",
@@ -1402,14 +1421,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.statements.get_details`<a id="openbankingstatementsget_details"></a>
+### `openbankingaccountandtransaction.statements.get_details`<a id="openbankingaccountandtransactionstatementsget_details"></a>
 
 Get Statements
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_details_response = openbanking.statements.get_details(
+get_details_response = openbankingaccountandtransaction.statements.get_details(
     statement_id="StatementId_example",
     account_id="AccountId_example",
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
@@ -1457,14 +1476,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.statements.get_file`<a id="openbankingstatementsget_file"></a>
+### `openbankingaccountandtransaction.statements.get_file`<a id="openbankingaccountandtransactionstatementsget_file"></a>
 
 Get Statements
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_file_response = openbanking.statements.get_file(
+get_file_response = openbankingaccountandtransaction.statements.get_file(
     statement_id="StatementId_example",
     account_id="AccountId_example",
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
@@ -1508,14 +1527,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.transactions.get_details`<a id="openbankingtransactionsget_details"></a>
+### `openbankingaccountandtransaction.transactions.get_details`<a id="openbankingaccountandtransactiontransactionsget_details"></a>
 
 Get Transactions
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_details_response = openbanking.transactions.get_details(
+get_details_response = openbankingaccountandtransaction.transactions.get_details(
     statement_id="StatementId_example",
     account_id="AccountId_example",
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
@@ -1563,14 +1582,14 @@ Indicates the user-agent that the PSU is using.
 
 ---
 
-### `openbanking.transactions.get_details_0`<a id="openbankingtransactionsget_details_0"></a>
+### `openbankingaccountandtransaction.transactions.get_details_0`<a id="openbankingaccountandtransactiontransactionsget_details_0"></a>
 
 Get Transactions
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_details_0_response = openbanking.transactions.get_details_0(
+get_details_0_response = openbankingaccountandtransaction.transactions.get_details_0(
     account_id="AccountId_example",
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
@@ -1623,14 +1642,14 @@ The UTC ISO 8601 Date Time to filter transactions TO NB Time component is option
 
 ---
 
-### `openbanking.transactions.get_details_1`<a id="openbankingtransactionsget_details_1"></a>
+### `openbankingaccountandtransaction.transactions.get_details_1`<a id="openbankingaccountandtransactiontransactionsget_details_1"></a>
 
 Get Transactions
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```python
-get_details_1_response = openbanking.transactions.get_details_1(
+get_details_1_response = openbankingaccountandtransaction.transactions.get_details_1(
     x_fapi_auth_date="Sun, 48 Jul 7288 80:01:52 UTC",
     x_fapi_customer_ip_address="string_example",
     x_fapi_interaction_id="string_example",
